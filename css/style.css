@@ -530,7 +530,7 @@ html {
     }
 }
 @media(max-width:480px){
-    .item2, .item3, .middle, .news-paragraph, .acc-div, .nav, .ul-list {
+    .item2, .item3, .middle, .news-paragraph, .acc-div, .nav, .ul-list, .paragraph {
         display: none;
     }
     .grid-wrapper{
