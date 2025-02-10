@@ -287,7 +287,7 @@ html {
 }
 .button{
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #333;
     padding: 10px;
     font-size: 1rem;
@@ -298,7 +298,6 @@ html {
 .button:hover{
     background-color: #9b6a39;
     color: #fff;
-    border-color: #9b6a39;
 }
 #news{
     padding: 50px 5%;
@@ -358,7 +357,7 @@ html {
 .input-field::placeholder{
     color: #AF6900;
 }
-.submit-btn{
+#button{
     width: 120px;
     padding: 12px;
     border: none;
@@ -368,7 +367,7 @@ html {
     font-size: 2rem;
     cursor: pointer;
 }
-.submit-btn:hover {
+.button:hover {
     background-color: #8a5300;
 }
 #contactUs{
@@ -473,6 +472,7 @@ html {
     flex-direction: column;
     row-gap: 15px;
 }
+
 
 
 
