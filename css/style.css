@@ -532,4 +532,10 @@ html {
     .grid-wrapper{
         grid-template-columns: 1fr;
     }
+    .news-heading{
+        font-size: 2rem;
+    }
+    .news-title{
+        font-size: 1.5rem;
+    }
 }
