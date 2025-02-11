@@ -22,7 +22,7 @@
     <header class="header-container">
         <div class="header-box">
             <a href="index.html"><img class="logo-img" src="images/logo.svg" alt="logo"></a>
-            <nav class="navigation">
+            <nav class="navigation" id="navBar">
                <ul class="ul-nav">
                     <li><a class="list" href="#homePage">Home</a></li>
                     <li><a class="list" href="#ourStory">Our Story</a></li>
@@ -31,8 +31,8 @@
                     <li><a class="list" href="#contactUs">Contact Us</a></li>
                 </ul>
             </nav>
-            <a href="#"><span class="sign-in">sign in</span></a>
-            <div class="burger-bar">
+            <span class="sign-in">sign in</span>
+            <div class="burger-bar" id="burgerBar">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
@@ -90,7 +90,7 @@
                         <img class="bottle" src="images/wine-bottle.svg" alt="wine-bottle">
                         <div class="price">
                             <h4 class="product-name font-display">Saperavi</h4>
-                            <p class="product-description font-display">good wine.</p>
+                            <p class="product-description font-display">A bold, full-bodied red wine with dark fruit flavors, high acidity, and earthy notes.</p>
                             <p class="product-price">99.00$</p>
                             <div class="product-actions">
                                 <button class="button"><i class="fa-regular fa-heart"></i></button>
@@ -102,7 +102,7 @@
                         <img class="bottle" src="images/wine-bottle.svg" alt="wine-bottle">
                         <div class="price">
                             <h4 class="product-name font-display">Rkatsiteli</h4>
-                            <p class="product-description font-display">good wine.</p>
+                            <p class="product-description font-display">A crisp, aromatic white wine with citrus, green apple, and floral flavors, often slightly dry.</p>
                             <p class="product-price">99.00$</p>
                             <div class="product-actions">
                                 <button class="button"><i class="fa-regular fa-heart"></i></button>
@@ -114,7 +114,7 @@
                         <img class="bottle" src="images/wine-bottle.svg" alt="wine-bottle">
                         <div class="price">
                             <h4 class="product-name font-display">Shavkapito</h4>
-                            <p class="product-description font-display">good wine.</p>
+                            <p class="product-description font-display">A rare, deep red wine with rich berry flavors, a good balance of acidity, and soft tannins.</p>
                             <p class="product-price">99.00$</p>
                             <div class="product-actions">
                                 <button class="button"><i class="fa-regular fa-heart"></i></button>
@@ -126,7 +126,7 @@
                         <img class="bottle" src="images/wine-bottle.svg" alt="wine-bottle">
                         <div class="price">
                             <h4 class="product-name font-display">Mukuzani</h4>
-                            <p class="product-description font-display">good wine.</p>
+                            <p class="product-description font-display">A dry red wine made from Saperavi, offering rich, dark fruit flavors and smooth tannins, often aged in oak</p>
                             <p class="product-price">99.00$</p>
                             <div class="product-actions">
                                 <button class="button"><i class="fa-regular fa-heart"></i></button>
@@ -138,7 +138,7 @@
                         <img class="bottle" src="images/wine-bottle.svg" alt="wine-bottle">
                         <div class="price">
                             <h4 class="product-name font-display">Mtsvane</h4>
-                            <p class="product-description font-display">good wine.</p>
+                            <p class="product-description font-display">A white wine with fresh, citrusy flavors and floral notes, known for its crisp and refreshing character.</p>
                             <p class="product-price">99.00$</p>
                             <div class="product-actions">
                                 <button class="button"><i class="fa-regular fa-heart"></i></button>
@@ -150,7 +150,7 @@
                         <img class="bottle" src="images/wine-bottle.svg" alt="wine-bottle">
                         <div class="price">
                             <h4 class="product-name font-display">Tsinandali</h4>
-                            <p class="product-description font-display">good wine.</p>
+                            <p class="product-description font-display">A well-balanced white wine, often a blend of Rkatsiteli and Mtsvane, with bright acidity and flavors of green apple and citrus.</p>
                             <p class="product-price">99.00$</p>
                             <div class="product-actions">
                                 <button class="button"><i class="fa-regular fa-heart"></i></button>
@@ -171,7 +171,7 @@
                     <form action="#" class="email-form">
                         <label for="yourEmail"></label>
                         <input type="email" id="yourEmail" name="email" placeholder="your email" class=" font-display input-field">
-                        <input id="button" class="font-display" type="button" value="send">
+                        <input id="buttonEl" class="font-display" type="button" value="send">
                     </form>
                 </div>
             </div>
@@ -193,7 +193,7 @@
                     <ul class="ul-navigation">
                         <li class="contact-list">
                             <i class="fa-solid fa-location-dot contact-icon"></i>
-                            <a class="contact-info font-display" href="https://www.google.com/maps/place/Art+Palace/@41.703921,44.791226,14.58z/data=!4m6!3m5!1s0x40440d2c0e2185eb:0x6c6ff9d28b60184f!8m2!3d41.7158482!4d44.7944087!16s%2Fm%2F09ghhbd?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D">Ia Kargareteli Street, Tbilisi</a>
+                            <a class="contact-info font-display" href="https://www.google.com/maps/place/Art+Palace/@41.703921,44.791226,14.58z/data=!4m6!3m5!1s0x40440d2c0e2185eb:0x6c6ff9d28b60184f!8m2!3d41.7158482!4d44.7944087!16s%2Fm%2F09ghhbd?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">Ia Kargareteli Street, Tbilisi</a>
                         </li>
                         <li class="contact-list">
                             <i class="fa-solid fa-phone contact-icon"></i>
