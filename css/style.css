@@ -266,18 +266,18 @@ html {
 .product-name{
     font-size: 1.5rem;
     font-weight: 400;
-    color: #000;
+    color: #ffffff;
     margin: 10px 0;
 }
 .product-description{
     font-size: 1rem;
-    color: #9b6a39;
+    color: #c79d72;
     margin-bottom: 15px;
 }
 .product-price{
     font-size: 1.25rem;
     font-weight: 400;
-    color: #000;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 .product-actions{
@@ -312,26 +312,22 @@ html {
 }
 .news-container{
     border-radius: 10px;
-    background-color: #F5EBDA;
     padding: 40px;
+    background-image: url(../images/bg-image.png);
+    height: 60vh;
+    width: 100%;
 }
 .news-heading{
-    font-size: 3rem;
-    margin-bottom: 10px;
-    font-weight: 300;
-    color: #3d00009d;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #ffffff;
 }
 .news-title{
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 20px;
-    color: #AF6900;
-}
-.news-paragraph{
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-bottom: 50px;
-    color:#3d00009d;
+    margin-bottom: 40px;
+    color: #ff0000;
 }
 .email-form{
     display: flex;
@@ -530,7 +526,7 @@ html {
     }
 }
 @media(max-width:480px){
-    .item2, .item3, .middle, .news-paragraph, .acc-div, .nav, .ul-list, .paragraph{
+    .item2, .item3, .middle, .news-paragraph, .paragraph{
         display: none;
     }
     .grid-wrapper{
